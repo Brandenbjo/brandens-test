@@ -43,3 +43,4 @@ if (t == 'X') {
         location.reload()
     }
 }
+        
