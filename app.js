@@ -23,9 +23,9 @@ function cellClicked(e) {
 }
 
 function checkforwinner(){
-    if(cells[0].textContent === cells[1].textContent && cells[2].textContent ===cells[0].textContent || 
-        cells[3].textContent === cells[4].textContent && cells[3].textContent ===cells[5].textContent){
-        alert(`the winner is: ${cells[0].textContent}`)
+    if(cells[0].textContent === cells[1].textContent && cells[2].textContent === cells[0].textContent && cells[0].textContent==="X" || 
+        cells[3].textContent === cells[4].textContent && cells[3].textContent === cells[5].textContent && cells[3]==="X"){
+        alert(`the winner is X`)
     }
 }
 
@@ -43,3 +43,4 @@ if (t == 'X') {
         location.reload()
     }
 }
+                         
